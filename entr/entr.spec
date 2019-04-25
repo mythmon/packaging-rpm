@@ -9,6 +9,7 @@ Source: %{url}/get/%{name}-%{version}.tar.bz2
 
 BuildRequires: gcc
 
+# There is no debug package
 %global debug_package %{nil}
 
 %description
@@ -33,5 +34,5 @@ make test
 %{_mandir}/man1/%{name}.1.gz
 
 %changelog
-* Wed Apr 24 2019 Michael Cooper <mythmon@gmail.com - 4.2-1
+* Wed Apr 24 2019 Michael Cooper <mythmon@gmail.com>
 - First entr package
