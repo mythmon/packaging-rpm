@@ -25,6 +25,9 @@ CPPFLAGS="-g" make
 install -D -s -m755 entr -t %{buildroot}%{_bindir}
 install -D -m644 entr.1 -t %{buildroot}%{_mandir}/man1/
 
+%check
+make test
+
 %files
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1.gz
