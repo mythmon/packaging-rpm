@@ -7,6 +7,8 @@ URL: https://bitbucket.org/eradman/%{name}
 
 Source: %{url}/get/%{name}-%{version}.tar.bz2
 
+BuildRequires: gcc
+
 %global debug_package %{nil}
 
 %description
