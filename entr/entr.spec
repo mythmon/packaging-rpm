@@ -3,9 +3,9 @@ Version: 4.2
 Release: 1%{?dist}
 Summary: Run arbitrary commands when files change
 License: ISC
-URL: http://eradman.com/entrproject
+URL: https://bitbucket.org/eradman/%{name}
 
-Source: %{url}/code/%{name}-%{version}.tar.gz
+Source: %{url}/get/%{name}-%{version}.tar.bz2
 
 %global debug_package %{nil}
 
